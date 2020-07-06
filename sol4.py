@@ -1,7 +1,3 @@
-# Initial code for ex4.
-# You may change this code, but keep the functions' signatures
-# You can also split the code to multiple files as long as this file's API is unchanged 
-
 import numpy as np
 import os
 import matplotlib.pyplot as plt
@@ -432,6 +428,10 @@ def spread_out_corners(im, m, n, radius):
     ret = corners[legit, :]
     return ret
 
+
+#################################################################################################################
+################################################ SUPPLIED CODE ##################################################
+#################################################################################################################
 
 class PanoramicVideoGenerator:
     """
